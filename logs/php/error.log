@@ -1,0 +1,9 @@
+[19-Aug-2021 06:09:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-content\themes\mara-theme\functions.php on line 19 and at least 2 expected in C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-includes\plugin.php:405
+Stack trace:
+#0 C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-content\themes\mara-theme\functions.php(19): add_action('pre_get_posts')
+#1 C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-settings.php(499): include('C:\\Users\\Yogasm...')
+#2 C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-config.php(77): require_once('C:\\Users\\Yogasm...')
+#3 C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-load.php(37): require_once('C:\\Users\\Yogasm...')
+#4 C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Yogasm...')
+#5 {main}
+  thrown in C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-includes\plugin.php on line 405
