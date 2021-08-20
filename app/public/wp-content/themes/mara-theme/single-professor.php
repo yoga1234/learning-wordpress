@@ -4,10 +4,7 @@ get_header();
 while (have_posts()) {
   the_post(); ?>
   <?php
-  pageBanner(array(
-    'title' => 'This is title example',
-    'subtitle' => 'this is subtitle example'
-  ));
+  pageBanner();
   ?>
   <div class="container container--narrow page-section">
 
