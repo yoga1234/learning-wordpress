@@ -18,8 +18,6 @@ pageBanner(array(
       </li>
     <?php
     }
-
-    echo paginate_links();
     ?>
   </ul>
 </div>
