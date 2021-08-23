@@ -42,12 +42,20 @@ class Search {
   }
 
   getResults() {
-    this.resultsDiv.html("Imagine real search results here...");
-    this.isSpinnerVisible = false;
+    $.getJSON(
+      "http://mara-online-lesson.local/wp-json/wp/v2/posts?search=" + this.searchField.val(),
+      function (posts) {
+        console.log(posts[0].title.rendered);
+      }
+    );
   }
 
   keyPressDispatcher(e) {
-    if (e.keyCode == 83 && !this.isOverlayOpen && $("input, textarea").is(':focus')) {
+    if (
+      e.keyCode == 83 &&
+      !this.isOverlayOpen &&
+      $("input, textarea").is(":focus")
+    ) {
       this.openOverlay();
     }
 
