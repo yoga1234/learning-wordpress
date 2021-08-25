@@ -9,3 +9,4 @@ Stack trace:
   thrown in C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-includes\plugin.php on line 405
 [20-Aug-2021 03:08:46 UTC] PHP Parse error:  syntax error, unexpected '$relatedPrograms' (T_VARIABLE), expecting ',' or ';' in C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-content\themes\mara-theme\single-event.php on line 26
 [20-Aug-2021 15:05:01 UTC] PHP Parse error:  syntax error, unexpected '$args' (T_VARIABLE) in C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-content\themes\mara-theme\functions.php on line 10
+[25-Aug-2021 04:36:44 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Yogasmara\Local Sites\mara-online-lesson\app\public\wp-content\themes\mara-theme\inc\search-route.php on line 49
