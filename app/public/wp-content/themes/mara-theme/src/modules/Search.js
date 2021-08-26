@@ -1,5 +1,6 @@
 import axios from "axios"
 
+// minor changes will goes here.
 class Search {
   // 1. describe and create/initiate our object
   constructor() {
